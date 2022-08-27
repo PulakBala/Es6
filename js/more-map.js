@@ -18,4 +18,6 @@ const product = [
 const items = product.map(x => x.name);
 // console.log(items);
 const bigPrice = product.filter(price => price.price> 40000);
-console.log(bigPrice);
+// console.log(bigPrice);
+const chep = product.find(x => x.price < 40000);
+console.log(chep);
